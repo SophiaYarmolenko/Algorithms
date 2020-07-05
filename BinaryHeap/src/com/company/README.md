@@ -29,6 +29,7 @@ Parent\'s key becomes smaller than one(or both) of its children\'s
 1.    Exchange key in parent with key in larger child
 2.    Repeat until heap order restored
 >Function `sink()`
+### Delete the 
 ---
 ## Priority Queue
 >Priority queue - remove the largest (or smallest) item. Generic items in collections should be comparable.
