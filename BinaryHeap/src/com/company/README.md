@@ -1,8 +1,28 @@
 # Implementation of Priority Queue and HeapSort using BinaryHeap
-### Priority Queue
+## Binary Heap
+>Binary tree - empty or node with links to left and right binary trees
+>>Complete binary tree - perfect balanced, except for bottom level
+### Property:
+*    Height of complete tree with N nodes is [logN]
+*    Height only increases when N is a power of 2
+### Heap-ordered binary tree:
+*    Keys in nodes
+*    Parent`s key no smaller than children`s
+*    Largest key is a[1], which is root of binary tree
+*    Parent of node at k is at k/2
+*    Children of node at k are at 2k and 2k+1
+### Promotion in a heap
+#### Situation:
+Child's key becomes larger than its parent`s key 
+
+#### Elimination:
+1.    Exchange key in child with key in parent
+2.    Repeat until heap order restored
+---
+## Priority Queue
 >Priority queue - remove the largest (or smallest) item. Generic items in collections should be comparable.
 
-Functionality:
+### Functionality:
 *    <MaxPQ()>
 >create an empty PQ
 *    <void insert()>
@@ -11,3 +31,7 @@ Functionality:
 >return and remove the largest key
 *    <boolean isEmpty()>
 >is the priority queue empty?
+*    <Key max()>
+>return the largest key
+*    <int size()>
+>number of entries in the pq
