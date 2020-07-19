@@ -59,8 +59,8 @@ Parent\'s key becomes smaller than one(or both) of its children\'s
 *    Remove the maximum, one at a time.
 *    Leave in array, instead of nulling out.
 # Sorting algorithms: summary
-    | inplace? | stable? | worst | average | best | remarks
---- | -------- | ------- | ----- | ------- | ---- | -------
+- | inplace? | stable? | worst | average | best | remarks
+- | -------- | ------- | ----- | ------- | ---- | -------
 selection | x | - | N^2/2 | N^2/2 | N^2/2 | N exchanges
 insertion | x | x | N^2/2 | N^2/4 | N | use for small N or partially ordered
 shell | x | - | ? | ? | N | tight code, subquadretic
