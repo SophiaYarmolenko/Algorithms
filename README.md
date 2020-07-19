@@ -1,4 +1,4 @@
-# Algorithms
+#  :sparkles: Algorithms
 Different java and C++ algorithms 
 ## Sorting algorithms: summary
 kind | inplace? | stable? | worst | average | best | remarks
