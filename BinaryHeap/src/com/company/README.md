@@ -29,7 +29,9 @@ Parent\'s key becomes smaller than one(or both) of its children\'s
 1.    Exchange key in parent with key in larger child
 2.    Repeat until heap order restored
 >Function `sink()`
-### Delete the 
+### Delete the maximum in a heap
+#### Idea: exchange root with node at end, than sink it down
+#### Cost: 2lnN
 ---
 ## Priority Queue
 >Priority queue - remove the largest (or smallest) item. Generic items in collections should be comparable.
@@ -47,3 +49,19 @@ Parent\'s key becomes smaller than one(or both) of its children\'s
 >return the largest key
 *    `int size()`
 >number of entries in the pq
+---
+## Heapsort
+### Basic plan:
+*    Create max-heap with all N keys
+*    Repeatedly remove the maximum key.
+### Construction:
+*    Build heap using bottom-up method 
+*    Remove the maximum, one at a time.
+*    Leave in array, instead of nulling out.
+# Sorting algorithms: summary
+   |inplace?|stable?|worst|average|best|remarks
+---|--------|-------|-----|-------|----|-------
+selection|x||N^2/2|N^2/2|N^2/2|N exchanges
+insertion|x|x|N^2/2|N^2/4|N|use for small N or partially ordered
+shell|x||?|?|N|tight code, subquadretic
+quick|x||N^2/2|2NlnN|NlgN|NlogN probabilistic guarantee fastest in practice
