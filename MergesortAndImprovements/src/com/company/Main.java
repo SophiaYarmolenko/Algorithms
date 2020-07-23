@@ -21,38 +21,39 @@ public class Main {
             a[i] = scan.next();
         }
 
-        /*Selection selection = new Selection();
-        InsertionSort insertionSort = new InsertionSort();
-        ShellSort shellSort = new ShellSort();
+        MergesortRecursion mergesortRecursion = new MergesortRecursion();
+        MergesortImprovement1 mergesortImprovement1 = new MergesortImprovement1();
+        BottomUpMergesort bottomUpMergesort = new BottomUpMergesort();
 
         using = a;
-        selection.sort(using);
-        System.out.println("\nSorted elements by selection: ");
+        mergesortRecursion.sort(using);
+        System.out.println("\nSorted elements by mergesortRecursion: ");
         for(Comparable i:using)
             System.out.print(i+" ");
 
         using = a;
-        insertionSort.sort(using);
-        System.out.println("\nSorted elements by insertionSort: ");
+        mergesortImprovement1.sort(using);
+        System.out.println("\nSorted elements by mergeSortImprovements: ");
         for(Comparable i:using)
             System.out.print(i+" ");
 
         using = a;
-        shellSort.sort(using);
-        System.out.println("\nSorted elements by shellSort: ");
+        bottomUpMergesort.sort(using);
+        System.out.println("\nSorted elements by bottomUpMergesort: ");
         for(Comparable i:using)
-            System.out.print(i+" ");*/
+            System.out.print(i+" ");
     }
 }
 /*Example:
 Please, give a number of elements that you want to sort
 10
 Please, give elements that you want to sort
-A H R E B S D W R T
-Sorted elements by selection:
-A B D E H R R S T W
-Sorted elements by insertionSort:
-A B D E H R R S T W
-Sorted elements by shellSort:
-A B D E H R R S T W
+G A C B E R T K U H
+
+Sorted elements by mergesortRecursion:
+A B C E G H K R T U
+Sorted elements by mergeSortImprovements:
+A B C E G H K R T U
+Sorted elements by bottomUpMergesort:
+A B C E G H K R T U
  */
