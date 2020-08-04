@@ -1,4 +1,4 @@
-# Implementation of Priority Queue and HeapSort using BinaryHeap
+# :rocket: Implementation of Priority Queue and HeapSort using BinaryHeap
 ## Binary Heap
 >Binary tree - empty or node with links to left and right binary trees
 >>Complete binary tree - perfect balanced, except for bottom level
