@@ -1,4 +1,4 @@
-# :octocat: Mergesort and Improvements
+# :smirk::heartpulse: Mergesort and Improvements
 ## Basic plan:
 *    Divide array into two halves
 *    Recursively sort each half
