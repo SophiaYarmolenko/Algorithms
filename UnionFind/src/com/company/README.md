@@ -1,4 +1,4 @@
-# Union-Find
+# :sunglasses: Union-Find
 ---
 algorithm | worst-case time
 --------- | ---------------
