@@ -1,4 +1,4 @@
-# Elementary sorts
+# :rabbit2: Elementary sorts
 ---
 ## Selection sorts
 ### Idea: 
