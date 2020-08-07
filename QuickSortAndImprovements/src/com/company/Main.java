@@ -23,6 +23,10 @@ public class Main {
 
         QuickSort quickSort = new QuickSort();
         ThreeWayQuickSort threeWayQuickSort = new ThreeWayQuickSort();
+        SelectionProblem selectionProblem = new SelectionProblem();
+
+        using = a;
+        System.out.println("\nnext after average element founded by selection : "+ selectionProblem.select(using, N/2));
 
         using = a;
         quickSort.sort(using);
@@ -42,10 +46,14 @@ public class Main {
 Please, give a number of elements that you want to sort
 10
 Please, give elements that you want to sort
-A E R F G W R F T H
+A F R T D G J I R S
+
+next after average element founded by selection : J
 
 Sorted elements by quickSort:
-A E F F G H R R T W
+A D F G I J R R S T
 Sorted elements by threeWayQuickSort:
-A E F F G H R R T W
+A D F G I J R R S T
+Process finished with exit code 0
+
  */

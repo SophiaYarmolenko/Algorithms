@@ -1,6 +1,4 @@
 package com.company;
-
-
 /**
  * Basic plan:
  * -shuffle the array
@@ -23,7 +21,7 @@ public class QuickSort
         sort( a,0, a.length-1);
     }
 
-    private static int partition( Comparable[] a, int lo, int hi)
+    protected static int partition(Comparable[] a, int lo, int hi)
     {
         int i = lo;
         int j = hi + 1;
