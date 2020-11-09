@@ -1,6 +1,3 @@
-package com.company;
-
-//import java.util.LinkedList;
 import edu.princeton.cs.algs4.Queue;
 public class BreadthFirstSearch
 {
